@@ -21,6 +21,7 @@ def exibir_produto(id):
     produto['id'] = id
     return render_template("cadastro.html", **produto)
 
+
 #Abrir o template cadastro.html apenas com o id preenchido para permitir novo cadastro
 #Dar função aos botões excluir e salvar no template cadastro.html
     
